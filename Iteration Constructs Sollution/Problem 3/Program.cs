@@ -138,85 +138,118 @@ namespace Problem_3
             #endregion
 
             #region 2
-            // description of method:Uses a series of methods, a for loopswitch statements and cases to print out the various potential conditional problems 
-            // a user could have with a computer, and their corresponding solutions
-            // Inputs: condition methods, ints i initially set to 0, and cases 0-7
-            // Outputs: Every example of a conditionl problem and its associated solutions are printed to the terminal
-            // Behavior: Using a for loop with the value int i = 0 set to run until i is equal to eight, each iteration uses a switch statement, from here the value of i 
-            // during the iteration runs down a list of cases until it reaches the case with the same value as itself. Each case has been coded to provide the errors and thier 
-            // solutions for the secified case. Once a case has been completed, a break statement is initiated to restart the loop with i being increased by one.
+            // description of method:Uses a series of methods, a for loop 
+            //switch statements and cases to print out the various potential 
+            // conditional problems a user could have with a computer, and 
+            // their corresponding solutions
+            // Inputs: condition methods, ints i initially set to 0, and cases
+            // 0-7
+            // Outputs: Every example of a conditionl problem and its 
+            // associated solutions are printed to the terminal
+            // Behavior: Using a for loop with the value int i = 0 set to run
+            // until i is equal to eight, each iteration uses a switch 
+            // statement from here the value of i  during the iteration runs
+            // down a list of cases until it reaches the case with the same 
+            // value as itself. Each case has been coded to provide the errors
+            // and thier solutions for the secified case. Once a case has been
+            // completed, a break statement is initiated to restart the loop 
+            //with i being increased by one.
             
             for (int i = 0; i < 8; i++)
             {
                 switch (i)
                 {
                     case 0:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: No\n");
                         Console.WriteLine("A red light is flashing: No\n");
-                        Console.WriteLine("Printer is recognized by computer: No\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is recognized" +
+                            " by computer: No\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Power();
                         Printer();
                         Software();
                         break;
                     case 1:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: No\n");
                         Console.WriteLine("A red light is flashing: No\n");
-                        Console.WriteLine("Printer is recognized by computer: Yes\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: Yes\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Jam();
                         break;
                     case 2:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: No\n");
                         Console.WriteLine("A red light is flashing: Yes\n");
-                        Console.WriteLine("Printer is recognized by computer: No\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: No\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Printer();
                         Software();
                         Ink();
                         break;
                     case 3:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: No\n");
                         Console.WriteLine("A red light is flashing: Yes\n");
-                        Console.WriteLine("Printer is recognized by computer: Yes\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: Yes\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Ink();
                         Jam();
                         break;
                     case 4:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: Yes\n");
                         Console.WriteLine("A red light is flashing: No\n");
-                        Console.WriteLine("Printer is recognized by computer: No\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: No\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Software();
                         break;
                     case 5:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: Yes\n");
                         Console.WriteLine("A red light is flashing: No\n");
-                        Console.WriteLine("Printer is recognized by computer: Yes\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: Yes\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Why();
                         break;
                     case 6:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: Yes\n");
                         Console.WriteLine("A red light is flashing: Yes\n");
-                        Console.WriteLine("Printer is recognized by computer: No\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: No\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Software();
                         break;
                     case 7:
-                        Console.WriteLine("---------------Conditions---------------\n");
+                        Console.WriteLine("---------------" +
+                            "Conditions---------------\n");
                         Console.WriteLine("Printer prints: Yes\n");
                         Console.WriteLine("A red light is flashing: Yes\n");
-                        Console.WriteLine("Printer is recognized by computer: Yes\n");
-                        Console.WriteLine("---------------Solutions----------------");
+                        Console.WriteLine("Printer is " +
+                            "recognized by computer: Yes\n");
+                        Console.WriteLine("---------------" +
+                            "Solutions----------------");
                         Ink();
                         break;
                 }

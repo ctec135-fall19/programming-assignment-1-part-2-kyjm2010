@@ -22,7 +22,8 @@ namespace Iteration_Constructs
             // Behavior: Each loop prints the number 1-5 separated by a space 
             // on a single line
             #region for loop
-            Console.WriteLine("numbers 1-5 printed on a single separated by a space line using a for loop");
+            Console.WriteLine("numbers 1-5 printed on a single separated " +
+                "by a space line using a for loop");
             for (int i = 1; i < 6; i++)
             {
                 Console.Write("{0} ", i);
@@ -32,7 +33,8 @@ namespace Iteration_Constructs
             #endregion
 
             #region while loop
-            Console.WriteLine("numbers 1-5 printed on a single line separated by a space using a while loop");
+            Console.WriteLine("numbers 1-5 printed on a single line " +
+                "separated by a space using a while loop");
             int count = 1;
             while (count < 6)
             {
@@ -44,7 +46,8 @@ namespace Iteration_Constructs
             #endregion
 
             #region do/while loop
-            Console.WriteLine("numbers 1-5 printed on a single line separated by a space using a do/while loop");
+            Console.WriteLine("numbers 1-5 printed on a single line " +
+                "separated by a space using a do/while loop");
             int j = 1;
             do
             {

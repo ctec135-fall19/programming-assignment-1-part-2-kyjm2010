@@ -66,20 +66,26 @@ namespace Problem_3
                 {
                     for (int k = 0; k < 2; k++)
                     {
-                        Console.WriteLine("----------------Issue(s)-----------------\n");
+                        Console.WriteLine("----------------" +
+                            "Issue(s)-----------------\n");
                         if (i == 0)
                             Console.WriteLine("Printer prints: No\n");
                         else
                             Console.WriteLine("Printer prints: Yes\n");
                         if (j == 0)
-                            Console.WriteLine("A red light is flashing: No\n");
+                            Console.WriteLine("A red light is " +
+                                "flashing: No\n");
                         else
-                            Console.WriteLine("A red light is flashing: Yes\n");
+                            Console.WriteLine("A red light is " +
+                                "flashing: Yes\n");
                         if (k == 0)
-                            Console.WriteLine("Printer is recognized by computer: No\n");
+                            Console.WriteLine("Printer is recognized" +
+                                " by computer: No\n");
                         else
-                            Console.WriteLine("Printer is recognized by computer: Yes\n");
-                        Console.WriteLine("---------------Solution(s)---------------\n");
+                            Console.WriteLine("Printer is recognized" +
+                                " by computer: Yes\n");
+                        Console.WriteLine("---------------" +
+                            "Solution(s)---------------\n");
                         if (i == 0 && j == 0 && k == 0)
                         {
                             

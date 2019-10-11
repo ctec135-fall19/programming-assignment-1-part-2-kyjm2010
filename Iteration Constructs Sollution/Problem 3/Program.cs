@@ -8,14 +8,23 @@ namespace Problem_3
 {
     class Program
     {
-        // description of method:Uses a series of methods, loops and decision structures to print out the various potential conditional problems 
+        // description of method:Uses a series of methods, loops and decision 
+        // structures to print out the various potential conditional problems 
         // a user could have with a computer, and their corresponding solutions
+
         // Inputs: condition methods, ints i, j, and k, Yes and No values
-        // Outputs: Every example of a conditionl problem and its associated solutions are printed to the terminal
-        // Behavior: Using a for loop with two nested loops with the values int i, j, and k respectively 
-        // set to run until a value is equal to two, each iteration uses if else statements to determine if the number presented is 0 or 1, 
-        // from there the value of yes or no is assigned and is printed to the console window. Using if statements we can take the numbers generated from the 
-        // for loops we can build boolean error codes and assign the correct solutions to print if the if statement is true.
+
+        // Outputs: Every example of a conditionl problem and its associated 
+        // solutions are printed to the terminal
+
+        // Behavior: Using a for loop with two nested loops with the values 
+        // int i, j, and k respectively set to run until a value is equal to
+        // two, each iteration uses if else statements to determine if the 
+        // number presented is 0 or 1, from there the value of yes or no is
+        // assigned and is printed to the console window. Using if statements
+        // we can take the numbers generated from the for loops we can build 
+        // boolean error codes and assign the correct solutions to print if 
+        // the if statement is true.
 
         static void Power()
         {

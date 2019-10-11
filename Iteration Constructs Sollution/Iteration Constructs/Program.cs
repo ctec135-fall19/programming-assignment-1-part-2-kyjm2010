@@ -10,11 +10,17 @@ namespace Iteration_Constructs
     {
         static void Main(string[] args)
         {
-            // description of method: Practicing loop concepts using for, while and do/while loops
+            // description of method: Practicing loop concepts using for, while
+            // and do/while loops
+
             // Inputs: int i and count i 
-            // Outputs: each iteration of a loop writes i or count to a line, the iterations are concatinated onto a single lin
+
+            // Outputs: each iteration of a loop writes i or count to a line, 
+            // the iterations are concatinated onto a single lin
             // using formatting we can insert a space between each value
-            // Behavior: Each loop prints the number 1-5 separated by a space on a single line
+
+            // Behavior: Each loop prints the number 1-5 separated by a space 
+            // on a single line
             #region for loop
             Console.WriteLine("numbers 1-5 printed on a single separated by a space line using a for loop");
             for (int i = 1; i < 6; i++)
